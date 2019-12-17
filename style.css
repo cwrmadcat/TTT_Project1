@@ -1,0 +1,59 @@
+.light {
+  background: #F2F2F2;
+  font-family: Arial;
+}
+
+.dark {
+  background: black;
+  font-family: Arial;
+  color: white;
+}
+  
+/*nav {
+  height: 50px;
+  width: 10%;
+  background: rgb(184, 208, 217);
+  text-align: center;
+}*/
+
+#button {
+  height: 50px;
+  width: 10%;
+  background: rgb(184, 208, 217);
+  text-align: center;
+}
+
+#toggle {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  /*color: #D97789;*/
+}
+
+#student-grade-table th {
+  background: green;
+}
+
+#student-grade-table tr:nth-child(odd) {
+  background: pink;
+}
+
+#student-grade-table tr:nth-child(even) {
+  background: purple;
+}
+
+#student-grade-table td {
+  text-align: center;
+  border: 1px solid;
+  width: 50%;
+}
+  
+#student-grade-table {
+  margin: 0 auto;
+  width: 60%;
+  padding: 50px;
+  border: 2px solid black;
+  background: rgb(184, 208, 217);
+}
