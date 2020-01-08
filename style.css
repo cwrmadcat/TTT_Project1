@@ -1,59 +1,87 @@
-.light {
-  background: #F2F2F2;
-  font-family: Arial;
+/*.grid-container {
+    display: grid;
+    grid-template-rows: 60px 120px 30% 25% 10% 30% 60px;
+}
+*/
+
+.pageHead {
+    background: rgb(61, 47, 47);
+    display: block;
+    height: 60px;
 }
 
-.dark {
-  background: black;
-  font-family: Arial;
-  color: white;
-}
-  
-/*nav {
-  height: 50px;
-  width: 10%;
-  background: rgb(184, 208, 217);
-  text-align: center;
-}*/
-
-#button {
-  height: 50px;
-  width: 10%;
-  background: rgb(184, 208, 217);
-  text-align: center;
+.postHead {
+    background: rgb(199, 192, 192);
+    display: block;
+    height: 120px;
 }
 
-#toggle {
-  text-align: center;
+.mainBody {
+    background: white;
+    margin: 0 auto;
 }
 
-h1 {
-  text-align: center;
-  /*color: #D97789;*/
+.leftText {
+    display: inline-block;
+    text-indent: 30px;
+    line-height: 60px;
+    color: white;
+    margin: auto;
 }
 
-#student-grade-table th {
-  background: green;
+
+.mainContainer {
+    font-size: 0;
+    width: 100%;
+    height: 100%;
 }
 
-#student-grade-table tr:nth-child(odd) {
-  background: pink;
+
+.sideContainer {
+    font-size: 0;
+    width: 50%;
+    height: 600px;
 }
 
-#student-grade-table tr:nth-child(even) {
-  background: purple;
+
+.leftPic {
+    display: inline-block;
+    width: 50%;
+    height: 600px;
+    background: black;
 }
 
-#student-grade-table td {
-  text-align: center;
-  border: 1px solid;
-  width: 50%;
+.upperRightPic {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 300px;
+    background: red;
 }
-  
-#student-grade-table {
-  margin: 0 auto;
-  width: 60%;
-  padding: 50px;
-  border: 2px solid black;
-  background: rgb(184, 208, 217);
+
+.lowerRightPic {
+    display: inline-block;
+    width: 50%;
+    height: 300px;
+    background: purple;
+}
+
+#symbols {
+    display: inline;
+    font-size: 8px;
+    padding-right: 20px;
+    color: white;
+}
+
+#deutsche {
+    display: inline;
+    font-size: 12px;
+    color: white;
+}
+
+#newsletter {
+    display: inline;
+    font-size: 12px;
+    color: white;
+
 }
